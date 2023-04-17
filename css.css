@@ -1,5 +1,11 @@
+@import url('https://fonts.googleapis.com/css?family=Inter');
+
+.todo {
+    font-family: "Inter";
+}
+
 .head {
-    background-color: rgba(248,247,252,255);
+    background-color: rgba(248, 247, 252, 255);
     height: 31%;
     width: 100%;
 }
@@ -12,12 +18,167 @@
 
 .bottom {
     background-color: rgba(55, 58, 77, 255);
-    height: 31%;
+    height: 35%;
     width: 100%;
 }
 
 .todo {
-    background-color: rgba(44,45,63,255);
     width: 100%;
     height: 250%;
+}
+
+.end {
+    font-family: "Inter";
+    background-color: rgba(44, 45, 63, 255);
+    vertical-align: middle;
+    width: auto;
+    height: 3%;
+    padding-top: 3%;
+    padding-left: 6%;
+    color: rgb(133, 133, 133);
+    font-size: 85%;
+}
+
+.text1 {
+    font-family: "Inter";
+    margin-right: 45%;
+}
+
+.text2 {
+    font-family: "Inter";
+    margin-right: 2%;
+}
+
+.text3 {
+    font-family: "Inter";
+    margin-right: 2%;
+}
+
+.bottombox1 {
+    width: 82%;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    margin-top: 3%;
+    color: rgb(182, 182, 182);
+}
+
+.bottombox2 {
+    width: 82%;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 8%;
+    margin-bottom: 2%;
+    padding-left: 3%;
+    color: rgb(182, 182, 182);
+}
+
+.bottombox3 {
+    width: 84%;
+    height: 25%;
+    background-color: white;
+    border-radius: 10px;
+    padding-top: 1%;
+    margin-left: 8%;
+    margin-bottom: 4%;
+    padding-left: 1%;
+    color: rgb(182, 182, 182);
+}
+
+.bottombox4 {
+    width: 40%;
+    background-color: rgb(200, 157, 204);
+    border-radius: 10px;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    margin-left: 8%;
+    padding: 2%;
+    text-align: center;
+}
+
+.btext1 {
+    padding-top: 7%;
+    font-size: 170%;
+    color: white;
+    margin-left: 8%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    letter-spacing: 2px;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+    text-align: center;
+}
+
+.rtext1 {
+    color: white;
+    font-size: 170%;
+    margin-top: 12%;
+}
+
+.rtext2 {
+    color: lightgray;
+    margin-top: 5%;
+    margin-left: 9%;
+    margin-bottom: 1%;
+}
+
+.rtext3 {
+    color: lightgray;
+    margin-left: 2%;
+}
+
+.rtext4 {
+    color: white;
+    margin-top: 7%;
+    margin-left: 9%;
+}
+
+.ricons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    margin-left: 10%;
+    height: 80%;
+}
+
+.fac {
+    width: 8%;
+    height: 8%;
+    background-color: lightblue;
+}
+
+.twi {
+    width: 8%;
+    height: 8%;
+    background-color: lightblue;
+}
+
+.ins {
+    width: 8%;
+    height: 8%;
+    background-color: lightblue;
+}
+
+.lin {
+    width: 8%;
+    height: 8%;
+    background-color: lightblue;
 }
