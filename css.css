@@ -6,8 +6,159 @@
 
 .head {
     background-color: rgba(248, 247, 252, 255);
-    ;
     width: 100%;
+    flex: auto;
+    flex-direction: row;
+}
+
+
+.box {
+    background-color: rgba(255, 255, 255, 255);
+    height: 13%;
+    width: 100%;
+    box-shadow: 1px 1px 5px lightgray;
+    display: flex;
+    justify-content: space-between;
+
+}
+.textos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+
+
+  
+}
+.textos1{
+    margin-left: 18%;
+    margin-top: 0.8%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 75px;
+
+}
+.bloque{
+display: flex;
+flex-direction: row;
+margin-left: 8%;
+
+
+}
+.logo {
+    width: 75px;
+    height: 60px;
+   margin-top: 8%;
+    display: flex;
+    
+    align-items: center;
+   
+
+}
+
+.logotxt {
+    width: 5%;
+    height: 4%;
+   padding-left: 6%;
+position: absolute;
+padding-top:1.1%;
+font-size:xx-large;
+font-family: "Inter";
+color: rgb(99, 96, 96);
+;
+}
+
+.logotxt1 {
+    width: 5%;
+    height: 4%;
+
+
+font-size:medium;
+font-family: "Inter";
+color: #9389eb
+   
+
+}
+.logotxt2 {
+    width: 5%;
+    height: 4%;
+
+    font-size:medium;
+    font-family: "Inter";
+color: #71737f;
+   
+
+}
+.logotxt3 {
+    width: 5%;
+    height: 4%;
+
+
+    font-size:medium;
+font-family: "Inter";
+color: #71737f;
+   
+
+}
+.logotxt4 {
+    width: 5%;
+    height: 4%;
+   
+    font-size:medium;
+font-family: "Inter";
+color: #71737f;
+   
+
+}
+.logotxt5 {
+    width: 20%;
+    height: 4%;
+
+
+    font-size:medium;
+font-family: "Inter";
+color: #71737f;
+   
+
+}
+.botones{
+margin-left: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+   
+}
+.singup{
+    height:40px;
+    width: 100px;
+    border: none;
+    background-color:#776df4;
+    font-family: 'Inter';
+    font-size: 15px;
+    border-radius: 10px;
+    color:white;
+    margin-left: 10%;
+    margin-top: 5%;
+
+    
+}
+.singin{
+    height:40px;
+    width:120px;
+  border: none;
+    background-color:white;
+    font-family: 'Inter';
+    font-size: 15px;
+    border-radius: 10px;
+    color:gray;
+    margin-top: 5%;
+
+}
+.icono{
+ width: 20%;
+ height: 30%;
 }
 
 .body {
@@ -20,11 +171,6 @@
     background-color: rgba(55, 58, 77, 255);
 
     width: 100%;
-}
-
-.todo {
-    width: 100%;
-
 }
 
 .end {
