@@ -19,18 +19,15 @@
     box-shadow: 1px 1px 5px lightgray;
     display: flex;
     justify-content: space-between;
-
 }
-.textos{
+
+.textos {
     display: flex;
     flex-direction: row;
     align-items: center;
-    
-
-
-  
 }
-.textos1{
+
+.textos1 {
     margin-left: 18%;
     margin-top: 0.8%;
     display: flex;
@@ -39,34 +36,38 @@
     gap: 75px;
 
 }
-.bloque{
-display: flex;
-flex-direction: row;
-margin-left: 8%;
+
+.bloque {
+    display: flex;
+    flex-direction: row;
+    margin-left: 8%;
 
 
+}
+.bloqueimagen{
+margin-bottom: 10%;
 }
 .logo {
     width: 75px;
     height: 60px;
-   margin-top: 8%;
+    margin-top: 8%;
     display: flex;
-    
+
     align-items: center;
-   
+
 
 }
 
 .logotxt {
     width: 5%;
     height: 4%;
-   padding-left: 6%;
-position: absolute;
-padding-top:1.1%;
-font-size:xx-large;
-font-family: "Inter";
-color: rgb(99, 96, 96);
-;
+    padding-left: 6%;
+    position: absolute;
+    padding-top: 1.1%;
+    font-size: xx-large;
+    font-family: "Inter";
+    color: rgb(99, 96, 96);
+    ;
 }
 
 .logotxt1 {
@@ -74,96 +75,101 @@ color: rgb(99, 96, 96);
     height: 4%;
 
 
-font-size:medium;
-font-family: "Inter";
-color: #9389eb
-   
-
+    font-size: medium;
+    font-family: "Inter";
+    color: #9389eb
 }
+
 .logotxt2 {
     width: 5%;
     height: 4%;
 
-    font-size:medium;
+    font-size: medium;
     font-family: "Inter";
-color: #71737f;
-   
+    color: #71737f;
+
 
 }
+
 .logotxt3 {
     width: 5%;
     height: 4%;
 
 
-    font-size:medium;
-font-family: "Inter";
-color: #71737f;
-   
+    font-size: medium;
+    font-family: "Inter";
+    color: #71737f;
+
 
 }
+
 .logotxt4 {
     width: 5%;
     height: 4%;
-   
-    font-size:medium;
-font-family: "Inter";
-color: #71737f;
-   
+
+    font-size: medium;
+    font-family: "Inter";
+    color: #71737f;
+
 
 }
+
 .logotxt5 {
     width: 20%;
     height: 4%;
 
 
-    font-size:medium;
-font-family: "Inter";
-color: #71737f;
-   
+    font-size: medium;
+    font-family: "Inter";
+    color: #71737f;
+
 
 }
-.botones{
-margin-left: 20%;
+
+.botones {
+    margin-left: 20%;
     display: flex;
     flex-direction: row;
     align-items: center;
 
-   
+
 }
-.singup{
-    height:40px;
+
+.singup {
+    height: 40px;
     width: 100px;
     border: none;
-    background-color:#776df4;
+    background-color: #776df4;
     font-family: 'Inter';
     font-size: 15px;
     border-radius: 10px;
-    color:white;
+    color: white;
     margin-left: 10%;
     margin-top: 5%;
 
-    
+
 }
-.singin{
-    height:40px;
-    width:120px;
-  border: none;
-    background-color:white;
+
+.singin {
+    height: 40px;
+    width: 120px;
+    border: none;
+    background-color: white;
     font-family: 'Inter';
     font-size: 15px;
     border-radius: 10px;
-    color:gray;
+    color: gray;
     margin-top: 5%;
 
 }
-.icono{
- width: 20%;
- height: 30%;
+
+.icono {
+    width: 20%;
+    height: 30%;
 }
 
 .body {
     background-color: rgb(255, 255, 255);
-
     width: 100%;
 }
 
@@ -363,6 +369,73 @@ margin-left: 20%;
     display: flex;
     flex-direction: row;
     width: 100%;
+    height: 90%;
+    align-items: center;
+    justify-content: center;
+    gap: 4%;
+
+}
+
+.imagen1 {
+    border-radius: 25px;
+    margin-top: 15%;
+    margin-left: 20%;
+    height: 60%;
+}
+
+.rectangulo1 {
+    border-radius: 25px;
+    width: 32%;
+    height: 36%;
+    background-color: white;
+    box-shadow: 0 0 35px -20px;
+    margin-top: 21.5%;
+    margin-left: 11.5%;
+    position: absolute;
+
+}
+
+.comillas {
+    width: 16%;
+    height: 23%;
+    margin-top: 7%;
+    margin-left: 40%
+}
+
+.body-textos {
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.bodytextos1 {
+
+    padding-left: 5%;
+}
+
+.txtcomillas {
+    font-family: 'Inter';
+
+    font-size: 95%;
+    color: #878696;
+
+
+}
+
+.txtcomillas2 {
+    font-family: 'Inter';
+    font-size: 95%;
+    color: #4e506b;
+
+}
+
+.title {
+    font-family: 'Inter';
+    font-size: 180%;
+    color: #4e506b;
+    position: absolute;
+    margin-top: 9%;
+    margin-left: 35%;
+
     height: 90%;
     gap: 4%;
     align-items: center;
